@@ -9,6 +9,7 @@ class S1Notifier extends _$S1Notifier {
     return 0;
   }
 
+  // 状態を変更するコードはNofirierに書いていく
   void updateState() {
     state += 1;
   }
