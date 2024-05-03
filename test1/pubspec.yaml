@@ -12,6 +12,7 @@ dependencies:
   flutter_hooks:
   flutter_riverpod:
   riverpod_annotation:
+  supabase_flutter: ^2.5.1
 
   cupertino_icons: ^1.0.6
 
