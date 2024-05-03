@@ -98,7 +98,7 @@ packages:
     source: hosted
     version: "2.4.9"
   build_runner_core:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: build_runner_core
       sha256: "30859c90e9ddaccc484f56303931f477b1f1ba2bab74aa32ed5d6ce15870f8cf"

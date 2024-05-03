@@ -1,5 +1,3 @@
-// freezedを使用して、ファイル生成するお
-
 ///////// a. パッケージをインポートし、自動生成されるファイルを記述 /////////
 import 'package:freezed_annotation/freezed_annotation.dart';
 
@@ -7,7 +5,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 // Freezedで生成されるデータクラス
 part 'notes.freezed.dart';
 // jsonを変換する処理が生成されるクラス
-// part 'notes.g.dart';
+part 'notes.g.dart';
 
 ///////// b. コード生成するためのクラスを作成 /////////
 
@@ -25,5 +23,5 @@ class Notes with _$Notes {
   }) = _Note;
 
   // json形式で受け取るためのコードを生成するために記述
-  // factory Note.fromJson(Map<String, dynamic> json) => _$NoteFromJson(json);
+  factory Note.fromJson(Map<String, dynamic> json) => _$NoteFromJson(json);
 }
