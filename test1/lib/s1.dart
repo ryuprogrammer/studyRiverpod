@@ -8,4 +8,8 @@ class S1Notifier extends _$S1Notifier {
     // 最初のデータ
     return 0;
   }
+
+  void updateState() {
+    state += 1;
+  }
 }
