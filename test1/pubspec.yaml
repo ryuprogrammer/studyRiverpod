@@ -12,7 +12,9 @@ dependencies:
   flutter_hooks:
   flutter_riverpod:
   riverpod_annotation:
-  supabase_flutter: ^2.5.1
+  supabase_flutter:
+  # freezed
+  freezed_annotation:
 
   cupertino_icons: ^1.0.6
 
@@ -21,6 +23,10 @@ dev_dependencies:
     sdk: flutter
   build_runner:
   riverpod_generator:
+  # freezed
+  freezed:
+  # json形式のレスポンスを受け取るので、変換用に「json_serializable」もインストール
+  json_serializable:
 
   flutter_lints: ^3.0.0
 
