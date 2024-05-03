@@ -6,7 +6,7 @@ part of 's1.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$s1NotifierHash() => r'8be4c977139c6d46e88ad514128f4ced7cb36351';
+String _$s1NotifierHash() => r'04bf6549b475db4e73914ae9e1b42d132fb50912';
 
 /// See also [S1Notifier].
 @ProviderFor(S1Notifier)
