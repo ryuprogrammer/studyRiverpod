@@ -13,7 +13,9 @@ class MyWidget1 extends ConsumerWidget {
     // ボタン
     final button = ElevatedButton(
         onPressed: () {
+          // ノティファイアを呼ぶ
           final notidier = ref.read(s1NotifierProvider.notifier);
+          // データを更新
           notidier.updateState();
         },
         child: const Text('ボタン'));
