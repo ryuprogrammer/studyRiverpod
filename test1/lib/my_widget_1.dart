@@ -10,6 +10,21 @@ class MyWidget1 extends ConsumerWidget {
     // widgetのrefでProviderをwatchする！
     final s1 = ref.watch(s1NotifierProvider);
 
-    return Text('$s1');
+    // ボタン
+    final button = ElevatedButton(
+        onPressed: () {
+          final notidier = ref.read(s1NotifierProvider.notifier);
+          notidier.updateState();
+        },
+        child: const Text('ボタン'));
+
+    // テキスト
+    final s1Text = Text('$s1');
+
+    // 縦に並べる
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [s1Text, button],
+    );
   }
 }
