@@ -8,6 +8,7 @@ class MyWidget1 extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // widgetのrefでProviderをwatchする！
+    // watchなので、Provider内のデータを見続ける！
     final s1 = ref.watch(s1NotifierProvider);
 
     // ボタン
