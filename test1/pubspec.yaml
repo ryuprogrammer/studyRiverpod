@@ -13,9 +13,7 @@ dependencies:
   flutter_riverpod:
   riverpod_annotation:
   supabase_flutter:
-  # freezed
-  freezed_annotation:
-
+  json_annotation: ^4.9.0
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
@@ -27,7 +25,10 @@ dev_dependencies:
   # freezed
   freezed:
   # json形式のレスポンスを受け取るので、変換用に「json_serializable」もインストール
-  json_serializable:
+  dev_dependencies:
+  # 既存の依存関係
+  json_serializable: ^4.0.0 # 例えば、4.x.x の最新バージョンに指定
+
 
   flutter_lints: ^3.0.0
 
